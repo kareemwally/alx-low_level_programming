@@ -2,12 +2,11 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- * @parameter: describe the parameter
+ * Description: 'the program is just to print a simple word using printf()'
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
