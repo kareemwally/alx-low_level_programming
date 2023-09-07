@@ -3,7 +3,8 @@
  * including the IO LIBRARY
  * Main - Entry point
  * description 'this program is to print a simple word'
- * Returns 0
+ *@parameter: describe the parameter
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
