@@ -1,6 +1,10 @@
 #include <stdio.h>
-/* including the IO LIBRARY*/
- /* And this is a decription for the main func*/
+/**
+ * including the IO LIBRARY
+ * Main - Entry point
+ * description 'this program is to print a simple word'
+ * Returns 0
+ */
 int main(void)
 {
 	/* my first C progrm, this program is to print a simple word*/
