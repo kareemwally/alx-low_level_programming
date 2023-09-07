@@ -1,1 +1,1 @@
-The journey begins with C. 
+This repo is for Low level languages 
