@@ -1,8 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include<stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description: 'the first program to use IF-ELSE statements'
+ *
+ * Return: Always 0 (Success)
+ *
+ */
 int main(void)
 {
 int n;
@@ -12,7 +18,7 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 printf("is positive\n");
 else if (n == 0)
-prinf("is zero\n");
+printf("is zero\n");
 else
 printf("is negative");
 return (0);
