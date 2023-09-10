@@ -4,18 +4,16 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: 'the idea is to convert the ascii code in the putchar function'
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-short i = '0';
-
-while (i < '10')
+int i;
+for (i = 48; i <= 57; i++)
 {
-putchar(i);
-i++;
+i = putchar(i);
 }
 putchar('\n');
 return (0);
