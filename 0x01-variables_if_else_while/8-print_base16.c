@@ -13,9 +13,9 @@ int main(void)
 int i;
 for (i = 48; i <= 102 ; i++)
 {
+i = putchar(i);
 if (i == 57)
 i = 97;
-i = putchar(i);
 }
 putchar('\n');
 return (0);
