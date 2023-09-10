@@ -15,7 +15,7 @@ for (i = 48; i <= 102 ; i++)
 {
 i = putchar(i);
 if (i == 57)
-i = 97;
+i = 96;
 }
 putchar('\n');
 return (0);
