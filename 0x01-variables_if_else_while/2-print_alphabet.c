@@ -18,6 +18,7 @@ for (i = 'a' ; i <= 'z' ; i++)
 
 putchar(i);
 }
+putchar('\n'); /*notice here that it must formatted in single qoutes*/
 	return (0);
 }
 
