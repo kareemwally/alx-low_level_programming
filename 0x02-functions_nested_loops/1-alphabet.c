@@ -1,14 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
- * print_alphabet - Function
- *
- * Description:'prototyped function'
- *
- * Return:Void it just prints
- */
-void print_alphabet(void);
+#include "main.h"
 /**
  * main - Entry point
  *
