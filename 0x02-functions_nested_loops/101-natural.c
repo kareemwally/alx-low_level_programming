@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include"main.h"
 /**
  * main - Entry point
  * Description:'This program is to sum the 3 or 5-factored numbers'
