@@ -12,16 +12,17 @@ int r;
 if (n > 0)
 {
 r = 1;
-putchar('+');
+putchar(43);
 }
 if (n < 0)
 {
 r = -1;
-putchar('-');
+putchar(45);
 }
 if (n == 0)
 {
 r = 0;
+putchar(48);
 }
 return (r);
 }
