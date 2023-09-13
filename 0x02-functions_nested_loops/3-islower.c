@@ -3,7 +3,7 @@
  * _islower - function
  *
  * Description:'This program is to checks lowercase letters'
- * @c the character we want to check
+ * @c: the character we want to check
  * Return:1 if lowercase(Success) or 0 uppercase
  */
 int _islower(int c)
