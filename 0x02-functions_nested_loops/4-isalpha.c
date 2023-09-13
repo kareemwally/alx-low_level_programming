@@ -7,7 +7,7 @@
  *
  * Return:1 if alpha(Success) or 0 anything else
  */
-_isalpha(int c)
+int _isalpha(int c)
 {
 int i;
 if ((c >= 97 && c < 123) || (c > 64 && c < 90))
