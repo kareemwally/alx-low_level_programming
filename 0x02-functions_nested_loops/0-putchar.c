@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include"main.h"
 /**
  * main - Entry point
  * Description: 'This simple program is just to print one sentence'
