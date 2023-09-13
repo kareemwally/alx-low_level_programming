@@ -16,7 +16,7 @@ return (0);
  *
  * Description:'the body of the previous function'
  */
-void print_alphabet(void)
+print_alphabet()
 {
 int i;
 for (i = 97; i <= 122; i++)
