@@ -24,6 +24,6 @@ else
 printf(",  ");
 }
 }
-}
 putchar('\n');
+}
 }
