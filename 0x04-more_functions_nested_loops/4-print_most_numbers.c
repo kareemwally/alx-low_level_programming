@@ -15,6 +15,6 @@ if (i == 50 || i == 52)
 {
 continue;
 }
-_putchar(i);
+putchar(i);
 }
 }
