@@ -17,4 +17,5 @@ continue;
 }
 putchar(i);
 }
+putchar('\n');
 }
