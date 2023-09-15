@@ -1,5 +1,4 @@
-#include<stdlib.h>
-#include<stdio.h>
+#include"main.h"
 /**
  * main - Entry point
  * Description:'This program is to check %3 and %5'
@@ -15,20 +14,16 @@ if (i != 100)
 if (i % 3 == 0 && i % 5 == 0)
 {
 printf("FizzBuzz ");
-continue;
 }
-}
-else
-{
-printf("FizzBuzz\n");
-continue;
-}
-if (i % 5 == 0)
+else if (i % 5 == 0)
 printf("Buzz ");
 else if (i % 3 == 0)
 printf("Fizz ");
 else
 printf("%d ", i);
+}
+else
+printf("Buzz\n");
 }
 return (0);
 }
