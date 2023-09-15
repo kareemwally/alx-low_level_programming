@@ -8,9 +8,9 @@
 void print_diagonal(int n)
 {
 int i, j = n;
-if ( n > 0)
+if (n > 0)
 {
-while(n>0)
+while (n > 0)
 {
 n--;
 for (i = n; (i < j) ; i++)
