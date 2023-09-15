@@ -13,7 +13,7 @@ if (n > 0)
 while (n > 0)
 {
 n--;
-for (i = n; (i < j) ; i++)
+for (i = n + 1; (i < j) ; i++)
 {
 _putchar(' ');
 }
