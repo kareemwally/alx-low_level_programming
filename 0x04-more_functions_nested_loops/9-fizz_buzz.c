@@ -1,4 +1,5 @@
-#include"main.h"
+#include<stdlib.h>
+#include<stdio.h>
 /**
  * main - Entry point
  * Description:'This program is to check %3 and %5'
