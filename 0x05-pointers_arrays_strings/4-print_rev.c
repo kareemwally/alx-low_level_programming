@@ -7,9 +7,9 @@
  */
 void print_rev(char *s)
 {
-int a = strlen(s);
-char c[a];
-for (int i = 0; i < a; i++)
+int i, a = strlen(s);
+char c [a];
+for (i = 0; i < a; i++)
 {
 c[i] = s[a - i - 1];
 printf("%c", c[i]);
