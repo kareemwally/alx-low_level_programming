@@ -14,4 +14,5 @@ for (i = a - 1; i >= 0; i--)
 /*c[i] = s[a - i - 1];*/
 printf("%c", s[i]);
 }
+printf("\n");
 }
