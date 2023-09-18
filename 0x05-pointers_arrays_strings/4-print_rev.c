@@ -12,6 +12,6 @@ int i, a = strlen(s);
 for (i = a - 1; i >= 0; i--)
 {
 /*c[i] = s[a - i - 1];*/
-printf("%c", c[i]);
+printf("%c", s[i]);
 }
 }
