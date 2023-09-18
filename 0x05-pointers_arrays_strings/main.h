@@ -1,5 +1,5 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 #include <stdio.h>
 #include <stdlib.h>
 void reset_to_98(int *n);
