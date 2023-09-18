@@ -3,7 +3,7 @@
  *_puts - function
  *description: this function prints string
  *@str:the string we wanna print
- *Return:void 
+ *Return:void
  */
 void _puts(char *str)
 {
