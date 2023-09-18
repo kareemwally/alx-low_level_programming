@@ -8,7 +8,7 @@
 void rev_string(char *s)
 {
 int i, a = strlen(s);
-for (i = 0; i < a; i++)
+for (i = a - 1; i >= 0; i--)
 {
 printf("%c", s[i]);
 }
