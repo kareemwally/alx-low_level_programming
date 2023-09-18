@@ -3,7 +3,8 @@
  *_strlen - function
  *description: this function returns the length of string
  *@s:the string we wanna check
- *return: integer greater than or equal zero (length of string)
+ *
+ *Return: integer greater than or equal zero (length of string)
  */
 int _strlen(char *s)
 {
