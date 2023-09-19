@@ -1,8 +1,8 @@
 #include"main.h"
 /**
  *puts_half-Function
- *Description:this function is to print n/2 or n/2 +1 chars 
- *@strr:the string we wanna print
+ *Description:this function is to print n/2 or n/2 +1 chars
+ *@str:the string we wanna print
  *Return:void
  */
 void puts_half(char *str)
