@@ -6,8 +6,8 @@
  *@c:the char we wanna find
  *return:(pointer)
  */
-char *_strchr(char* s,char c)
+char *_strchr(char* s, char c)
 {
-char* res = strchr(s,c);
+char* res = strchr(s, c);
 return (res);
 }
