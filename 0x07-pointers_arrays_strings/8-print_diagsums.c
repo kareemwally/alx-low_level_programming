@@ -14,7 +14,7 @@ for (i = 0; i < size; i++)
 for (j = 0; j < size; j++)
 {
 if (i == j)
-res += a[i][j];
+res+=*(*(a+i)+j);
 }
 }
 printf("%d", res);
