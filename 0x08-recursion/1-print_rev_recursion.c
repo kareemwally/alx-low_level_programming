@@ -7,7 +7,7 @@
  */
 void _print_rev_recursion(char *s)
 {
-if (i < strlen(s))
+if (i < (int) strlen(s))
 {
 putchar(s[strlen(s) - i - 1]);
 i++;
