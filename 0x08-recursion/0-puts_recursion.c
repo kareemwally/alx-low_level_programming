@@ -5,7 +5,7 @@
  *@s:the pointer to the string we want
  *return:(void)
  */
-void _puts_recursion(char* s)
+void _puts_recursion(char *s)
 {
 puts(s);
 }
