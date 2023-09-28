@@ -9,7 +9,7 @@ void _print_rev_recursion(char *s)
 {
 if (i < strlen(s))
 {
-putchar(s[strlen(s)-i-1]);
+putchar(s[strlen(s) - i - 1]);
 i++;
 _print_rev_recursion(s);
 }
