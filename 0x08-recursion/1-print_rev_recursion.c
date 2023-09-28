@@ -7,13 +7,13 @@
  */
 void _print_rev_recursion(char *s)
 {
-int size = strlen(s);
+int i, size = strlen(s);
 char str [size];
-for (int i = 0; i < size; i++)
+for (i = 0; i < size; i++)
 {
 str[i] = s [size - 1 - i];
 }
-for(int i = 0; i < size; i++)
+for(i = 0; i < size; i++)
 {
 printf("%c", str[i]);
 }
