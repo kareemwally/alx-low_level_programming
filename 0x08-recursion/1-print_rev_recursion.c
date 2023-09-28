@@ -8,13 +8,13 @@
 void _print_rev_recursion(char *s)
 {
 int i, size = strlen(s);
-char str [size];
+char str [60];
 for (i = 0; i < size; i++)
 {
 str[i] = s [size - 1 - i];
 }
 for(i = 0; i < size; i++)
 {
-printf("%c", str[i]);
+putchar(str[i]);
 }
 }
