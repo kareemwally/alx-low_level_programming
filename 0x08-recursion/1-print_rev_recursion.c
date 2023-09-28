@@ -7,14 +7,10 @@
  */
 void _print_rev_recursion(char *s)
 {
-int i, size = strlen(s);
-char str [60];
-for (i = 0; i < size; i++)
+if (i < strlen(s))
 {
-str[i] = s [size - 1 - i];
-}
-for(i = 0; i < size; i++)
-{
-putchar(str[i]);
+putchar(s[strlen(s)-i-1]);
+i++;
+_print_rev_recursion(s);
 }
 }
