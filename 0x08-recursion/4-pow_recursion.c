@@ -18,6 +18,6 @@ else if (y < 0)
 res = -1;
 }
 else
-{res = 1;}
+{res = 1; }
 return (res);
 }
