@@ -1,4 +1,5 @@
 #include"main.h"
+#include<math.h>
 int _sqrt_recursion(int n)
 {
 float res = sqrt(n);
