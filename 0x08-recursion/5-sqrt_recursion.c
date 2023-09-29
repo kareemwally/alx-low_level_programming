@@ -2,8 +2,8 @@
 #include<math.h>
 int _sqrt_recursion(int n)
 {
-int res = sqrt(n);
-if (res == (float) res)
+float res = sqrt(n);
+if (res == (int) res)
 return ((int) res);
 else
 return (-1);
