@@ -11,6 +11,7 @@ int size = strlen(s);
 if (s[i] == s[size - i - 1])
 {
 i++;
+res = 1;
 is_palindrome(s);
 }
 else
