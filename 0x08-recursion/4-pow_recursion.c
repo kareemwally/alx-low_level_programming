@@ -4,7 +4,7 @@
  *Description: returns x^y
  *@x:base number
  *@y:power or exponent
- *Return : (int)
+ *Return: (int)
  */
 int _pow_recursion(int x, int y)
 {
