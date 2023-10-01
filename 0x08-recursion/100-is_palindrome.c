@@ -7,18 +7,20 @@
  */
 int is_palindrome(char *s)
 {
-int size = strlen(s);
+int res = 0, size = strlen(s);
 if (s[i] == s[size - i - 1])
 {
 i++;
+res = 1;
 if (i == size - 1)
 {
-return (1);
+return (res);
 }
 is_palindrome(s);
 }
 else
 {
-return (0);
+res = 0;
 }
+return (res);
 }
