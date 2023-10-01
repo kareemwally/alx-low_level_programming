@@ -12,6 +12,10 @@ if (s[i] == s[size - i - 1])
 {
 i++;
 res = 1;
+if (i == size - 1)
+{
+return (res);
+}
 is_palindrome(s);
 }
 else
