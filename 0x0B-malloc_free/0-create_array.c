@@ -4,7 +4,7 @@
  *Description :this function allocates the right size of memory
  *@size:the memory size
  *@c:the char we wanna place
- *return :(pointer)
+ *return: (pointer)
  */
 char *create_array(unsigned int size, char c)
 {
