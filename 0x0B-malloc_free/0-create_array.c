@@ -1,4 +1,5 @@
 #include "main.h"
+#include <assert.h>
 /**
  *create_array-Function
  *Description :this function allocates the right size of memory
@@ -9,7 +10,6 @@
 char *create_array(unsigned int size, char c)
 {
 char *s;
-free(s);
 if (size == 0)
 return (NULL);
 else
