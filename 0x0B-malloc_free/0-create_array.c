@@ -1,5 +1,4 @@
 #include "main.h"
-#include <assert.h>
 /**
  *create_array-Function
  *Description :this function allocates the right size of memory
@@ -19,7 +18,7 @@ s[i] = c;
 }
 else
 {
-return (NULL);
+return (0);
 }
 return (s);
 }
