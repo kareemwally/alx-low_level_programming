@@ -5,11 +5,20 @@
 
 void change (char *s1, char *s2, char *res)
 {
-for (i = 0; i < strlen(s1); i++)
+int size1 = strlen(s1), size2 = strlen(s2);
+if (s1 == NULL)
+{
+size1 = 0;
+}
+if (s2 == NULL)
+{
+size2 = 0;
+}
+for (i = 0; i < size1; i++)
 {
 res[i] = s1[i];
 }
-for (j = 0; j < strlen(s2); j++)
+for (j = 0; j < size2; j++)
 {
 res[strlen(s1) + j] =s2[j];
 }
@@ -24,4 +33,5 @@ return (NULL);
 }
 change(s1, s2, res);
 return (res);
+}
 }
