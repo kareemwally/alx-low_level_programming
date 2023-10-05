@@ -16,11 +16,13 @@ return (NULL);
 p1 = (int *)malloc(sizeof(int) * width);
 if (p1 == NULL)
 {
+free(p1);
 return (NULL);
 }
 p2 = (int **)malloc(height * sizeof(int *));
 if (p2 == NULL)
 {
+free(p2);
 return (NULL);
 }
 for (k = 0; k < height; k++)
