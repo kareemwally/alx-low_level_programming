@@ -17,9 +17,9 @@ return (NULL);
 for (k = 0; k < height; k++)
 {
 p2[k] = (int *)malloc(width * sizeof(int));
-if (p2 == NULL)
+if (p2[k] == NULL)
 {
-for (o = 0; o < height; o++)
+for (o = 0; o <= k; o++)
 {
 free(p2[o]);
 }
