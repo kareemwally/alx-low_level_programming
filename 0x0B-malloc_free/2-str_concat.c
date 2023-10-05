@@ -6,24 +6,24 @@
  *@s2:the 2nd string
  *@res:s1 + s2
  */
-void change (char *s1, char *s2, char *res)
+void change(char *s1, char *s2, char *res)
 {
-int size1 = 0, size2 = 0;
-res = NULL;
-if (s1 != NULL)
+int size1 = strlen(s1), size2 = strlen(s2);
+if (s1 == NULL)
 {
-size1 = strlen(s1);
+size1 = 0;
+}
+if (s2 == NULL)
+{
+size2 = 0;
+}
 for (i = 0; i < size1; i++)
 {
 res[i] = s1[i];
 }
-}
-if (s2 != NULL)
-{
-size2 = strlen(s2);
 for (j = 0; j < size2; j++)
 {
-res[j] =s2[j];
+res[size1 + j] = s2[j];
 }
 }
 /**
