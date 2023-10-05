@@ -11,9 +11,9 @@ char *create_array(unsigned int size, char c)
 char *s = malloc(size);
 if (size > 0 && s != NULL)
 {
-for (i = 0; i < size; i++)
+for (int o = 0; o < size; o++)
 {
-s[i] = c;
+s[o] = c;
 }
 }
 else
