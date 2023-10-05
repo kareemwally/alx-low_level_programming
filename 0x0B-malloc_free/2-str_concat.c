@@ -9,8 +9,6 @@
 void change (char *s1, char *s2, char *res)
 {
 int size1 = 0, size2 = 0;
-res = (char *) "";
-
 if (s1 != NULL)
 {
 size1 = strlen(s1);
