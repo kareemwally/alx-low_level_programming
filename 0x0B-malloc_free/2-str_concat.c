@@ -1,8 +1,12 @@
 #include"main.h"
-
-
-
-
+/**
+ *change-function
+ *description:only to concat the s1 and s2 to res
+ *@s1:the 1st string
+ *@s2:the 2nd string
+ *@res:s1 + s2
+ *@Return: (void)
+ */
 void change (char *s1, char *s2, char *res)
 {
 int size1 = strlen(s1), size2 = strlen(s2);
@@ -20,9 +24,16 @@ res[i] = s1[i];
 }
 for (j = 0; j < size2; j++)
 {
-res[strlen(s1) + j] =s2[j];
+res[size1 + j] = s2[j];
 }
 }
+/**
+ *str_concat-function
+ *description:that function return concated string
+ *@s1:the 1st str
+ *@s2:the 2nd str
+ *Return: (pointer)
+ */
 char *str_concat(char *s1, char *s2)
 {
 int size = strlen(s1) + strlen(s2);
