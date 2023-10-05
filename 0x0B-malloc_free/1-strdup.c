@@ -7,15 +7,17 @@
  */
 char *_strdup(char *str)
 {
-char *s = malloc(strlen(str) + 1);
-if (str == NULL || s == NULL)
+char *s;
+if (str == NULL)
 {
 return (NULL);
 }
-else
+s = malloc(strlen(str) + 1);
+if (s == NULL)
 {
+return (NULL);
+}
 for (i = 0; i < strlen(str); i++)
 s[i] = str[i];
-}
 return (s);
 }
