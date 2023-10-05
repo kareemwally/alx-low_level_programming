@@ -34,4 +34,3 @@ return (NULL);
 change(s1, s2, res);
 return (res);
 }
-}
