@@ -6,7 +6,7 @@
  *@s2:the 2nd string
  *@res:s1 + s2
  */
-void change (char *s1, char *s2, char *res)
+void change(char *s1, char *s2, char *res)
 {
 int size1 = 0, size2 = 0;
 if (s1 != NULL)
@@ -17,7 +17,6 @@ if (s2 != NULL)
 {
 size2 = strlen(s2);
 }
-
 for (i = 0; i < size1; i++)
 {
 res[i] = s1[i];
@@ -27,8 +26,9 @@ for (j = 0; j < size2; j++)
 res[size1 + j] = s2[j];
 }
 }
-/**d-function
- *description:returns the number of bytes
+/**
+ *d-function
+ *description:that function calculates number of bytes
  *@s1:the 1st str
  *@s2:the 2nd str
  *Return: (int)
