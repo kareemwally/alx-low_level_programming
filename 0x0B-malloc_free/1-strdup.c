@@ -3,11 +3,11 @@
  *_strdup-Function
  *Description :this function allocates the same size of memory as str
  *@str:the string we wanna match
- *Return :(pointer)
+ *Return: (pointer)
  */
 char *_strdup(char *str)
 {
-char *s =malloc(strlen(str));
+char *s = malloc(strlen(str));
 if (s == NULL || str == NULL)
 return (NULL);
 else
