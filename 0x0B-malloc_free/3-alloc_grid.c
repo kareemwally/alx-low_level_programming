@@ -16,12 +16,16 @@ return (NULL);
 p2 = (int **)malloc(height * sizeof(int *));
 if (p2 == NULL)
 {
+for (o = 0; o < height; o++)
+{
+free(p2[o]);
+}
 free(p2);
 return (NULL);
 }
 for (k = 0; k < height; k++)
 {
-p2[k] = (int *)malloc(width *sizeof(int));
+p2[k] = (int *)malloc(width * sizeof(int));
 for (o = 0; o < width; o++)
 {
 p2[k][o] = 0;
