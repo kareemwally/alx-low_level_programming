@@ -5,9 +5,8 @@
  *@s1:the 1st string
  *@s2:the 2nd string
  *@res:s1 + s2
- *@Return: (void)
  */
-void change (char *s1, char *s2, char *res)
+void change(char *s1, char *s2, char *res)
 {
 int size1 = strlen(s1), size2 = strlen(s2);
 if (s1 == NULL)
