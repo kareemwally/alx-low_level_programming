@@ -27,6 +27,25 @@ for (j = 0; j < size2; j++)
 res[size1 + j] = s2[j];
 }
 }
+/**d-function
+ *description:returns the number of bytes
+ *@s1:the 1st str
+ *@s2:the 2nd str
+ *Return: (int)
+ */
+int d(char *s1, char *s2)
+{
+int size1 = 0, size2 = 0;
+if (s1 != NULL)
+{
+size1 = strlen(s1);
+}
+if (s2 != NULL)
+{
+size2 = strlen(s2);
+}
+return (size1 + size2);
+}
 /**
  *str_concat-function
  *description:that function return concated string
@@ -36,7 +55,7 @@ res[size1 + j] = s2[j];
  */
 char *str_concat(char *s1, char *s2)
 {
-int size = strlen(s1) + strlen(s2);
+int size = d(s1, s2);
 char *res = malloc(size + 1);
 if (res == NULL)
 {
