@@ -9,7 +9,7 @@
 void change (char *s1, char *s2, char *res)
 {
 int size1 = 0, size2 = 0;
-res = "";
+res[0] = "";
 
 if (s1 != NULL)
 {
