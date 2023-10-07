@@ -4,7 +4,7 @@
  *description:the main function just to print the file name
  *@argc:the count of params passed to main during execution
  *@argv:the parameters
- Return: (int) 0 success.
+ *Return :(int)
  */
 int main(int argc, char *argv[])
 {
