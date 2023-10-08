@@ -9,9 +9,6 @@
 int main(int argc, char *argv[])
 {
 int i, sum = 0, o;
-(void)i;
-(void)sum;
-(void)o;
 for (i = 1; i < argc; i++)
 {
 o = atoi(argv[i]);
