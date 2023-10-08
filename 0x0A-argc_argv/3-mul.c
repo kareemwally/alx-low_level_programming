@@ -8,9 +8,10 @@
  */
 int main(int argc, char *argv[])
 {
-int i, j;
+int i, j, mul;
 (void)i;
 (void)j;
+(void)mul;
 if (argc <= 1)
 {
 printf("Error\n");
@@ -18,6 +19,7 @@ return (1);
 }
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-printf("%d\n", i * j);
+mul = i * j;
+printf("%d\n", mul);
 return (0);
 }
