@@ -12,7 +12,7 @@ void *res;
 if (nmemb == 0 || size == 0)
 return (NULL);
 else
-res = calloc((int)nmemb, int(size));
+res = calloc((int)nmemb, (int)size);
 if (res == NULL)
 return (NULL);
 else
