@@ -1,3 +1,4 @@
+#include"main.h"
 /**
  *array_range-function
  *description:the function craetes pointer like this [min....max]
