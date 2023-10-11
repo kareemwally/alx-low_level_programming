@@ -1,15 +1,15 @@
 #include"dog.h"
 #include<stddef.h>
 /**
- *int_dog-Function
+ *int_dog -Function
+ *description:this function initialize a struct
  *@name:the dog's name
  *@age: the dog's age
  *@owner: the owner of dog
  *@d: a pointer of type dog struct
- *
- *Description : this function initialize a struct
- *Return: (void)
+ *Return:(void)
  */
+
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 if (d != NULL)
