@@ -1,8 +1,8 @@
 #include"dog.h"
 #include<stddef.h>
 /**
- *int_dog -Function
- *description:this function initialize a struct
+ *init_dog -Function
+ *Description:this function fils the fields of struct
  *@name:the dog's name
  *@age: the dog's age
  *@owner: the owner of dog
