@@ -11,7 +11,7 @@ va_list res;
 unsigned int i;
 int s = 0;
 va_start(res, n);
-if ( n!= 0)
+if (n != 0)
 {
 for (i = 0; i < n; i++)
 {
