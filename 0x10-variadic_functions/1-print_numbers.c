@@ -18,7 +18,7 @@ if (i != n - 1)
 {
 if (separator != (char *)NULL)
 {
-printf("%c", separator);
+printf("%s", separator);
 }
 printf(" ");
 }
