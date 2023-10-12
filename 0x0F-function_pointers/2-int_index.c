@@ -10,14 +10,15 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int i, res = -1;
+(void)i;
 if (size <= 0)
-return (-1);
+return (res);
 if (array && cmp)
 {
 for (i = 0; i < size; i++)
 {
 res = cmp(array[i]);
-if (res != 0)
+if (res)
 {
 return (i);
 }
