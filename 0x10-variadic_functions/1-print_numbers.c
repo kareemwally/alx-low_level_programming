@@ -22,7 +22,6 @@ if (separator != (char *)NULL)
 {
 printf("%s", separator);
 }
-printf(" ");
 }
 }
 va_end(res);
