@@ -28,10 +28,7 @@ printf("%c", va_arg(res, int));
 break;
 case 's':
 f =  va_arg(res, char *);
-if (f)
 printf("%s",f);
-else
-printf("(nil)");
 break;
 }
 if (i != strlen(format) - 1)
