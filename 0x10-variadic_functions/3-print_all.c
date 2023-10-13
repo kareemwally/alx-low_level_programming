@@ -29,8 +29,8 @@ break;
 case 's':
 f =  va_arg(res, char *);
 if (f)
-printf("%s",f);
-if(!f)
+printf("%s", f);
+if (!f)
 printf("(nil)");
 break;
 }
