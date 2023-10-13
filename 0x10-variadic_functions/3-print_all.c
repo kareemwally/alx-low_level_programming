@@ -9,6 +9,7 @@ void print_all(const char * const format, ...)
 {
 size_t i = 0;
 char g;
+char *f;
 va_list res;
 va_start(res, format);
 while (i <  strlen(format))
@@ -26,7 +27,11 @@ case 'c':
 printf("%c", va_arg(res, int));
 break;
 case 's':
-printf("%s", va_arg(res, char *));
+f =  va_arg(res, char *);
+if (f)
+printf("%s",f);
+else
+printf("(nil)");
 break;
 }
 if (i != strlen(format) - 1)
