@@ -26,7 +26,7 @@ case 'c':
 printf("%c", va_arg(res, int));
 break;
 case 's':
-printf("%s", va_arg(res, char *) ? va_arg(res, char *) : "(nil)");
+printf("%s", va_arg(res, char *) != (char *)NULL ? va_arg(res, char *) : "(nil)");
 break;
 }
 if (i != strlen(format) - 1)
