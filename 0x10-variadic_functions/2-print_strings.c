@@ -9,11 +9,20 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
+char *s;
 va_list res;
 va_start(res, n);
 for (i = 0; i < n; i++)
 {
-printf("%s", va_arg(res, char *) != NULL ? va_arg(res, char *) : "(nil)");
+s = va_arg(res, char *);
+if (s)
+{
+printf("%s", s);
+}
+else
+{
+printf("(nil)");
+}
 if (i != n - 1)
 {
 if (separator != (char *)NULL)
