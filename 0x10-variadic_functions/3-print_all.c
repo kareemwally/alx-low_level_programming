@@ -20,10 +20,10 @@ case 'i':
 printf("%d", va_arg(res, int));
 break;
 case 'f':
-printf("%f", va_arg(res, float));
+printf("%f", va_arg(res, double));
 break;
 case 'c':
-printf("%c", va_arg(res, char));
+printf("%c", va_arg(res, int));
 break;
 case 's':
 printf("%s", va_arg(res, char *));
