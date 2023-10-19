@@ -9,6 +9,11 @@ size_t print_list(const list_t *h)
 {
 size_t res = 0;
 const list_t *n = NULL;
+if (h == NULL)
+{
+res = 1;
+return (res);
+}
 n = h;
 while (n != NULL)
 {
