@@ -3,7 +3,7 @@
  *print_list-function
  *Description:this function
  *@h:pointer of type list_t to next node
- *Return:(int)
+ *Return:(size_t)
  */
 size_t print_list(const list_t *h)
 {
