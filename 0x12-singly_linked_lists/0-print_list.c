@@ -23,6 +23,5 @@ printf("[0] (nil)\n");
 }
 n = n->next;
 }
-free(n);
 return (res);
 }
