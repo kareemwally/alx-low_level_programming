@@ -11,7 +11,6 @@ size_t res = 0;
 const list_t *n = NULL;
 if (h == NULL)
 {
-res = 1;
 return (res);
 }
 n = h;
