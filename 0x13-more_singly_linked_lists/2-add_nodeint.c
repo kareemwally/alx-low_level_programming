@@ -4,7 +4,7 @@
  *description:that function adds node at the beginning of list
  *@n:the data to put in node
  *@head:the base address to the first node
- *return:(pointer)
+ *Return: (pointer)
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
