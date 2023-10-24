@@ -24,15 +24,17 @@ return (res);
 int pop_listint(listint_t **head)
 {
 int res = 0;
-listint_t *t = *head;
-if (!listint_len(*head))
+listint_t *r;
+if (!(*head) || !head)
 {
 return (res);
 }
 else
 {
-res = t->n;
-*head = t->next;
+res = (*head)->n;
+r = (*head)->next;
+free(*head);
+*head = r;
 }
 return (res);
 }
