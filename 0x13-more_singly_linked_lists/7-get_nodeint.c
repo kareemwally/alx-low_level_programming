@@ -20,8 +20,14 @@ res = head;
 if (head)
 return (res);
 else
-return (NULL);
+{
+res = NULL;
+return (res);
+}
 }
 else
-return (NULL);
+{
+res = NULL;
+return (res);
+}
 }
