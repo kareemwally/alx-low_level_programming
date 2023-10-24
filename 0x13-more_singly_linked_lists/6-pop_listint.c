@@ -25,7 +25,7 @@ int pop_listint(listint_t **head)
 {
 int res = 0;
 listint_t *r;
-if (!(*head) || !listint_len(*head))
+if (!head || !listint_len(*head))
 {
 return (res);
 }
