@@ -7,7 +7,7 @@
  */
 void free_listint(listint_t *head)
 {
-listint_t *res = malloc(sizeof(listint_t));
+listint_t *res;
 res = head;
 while (res->next != NULL)
 {
