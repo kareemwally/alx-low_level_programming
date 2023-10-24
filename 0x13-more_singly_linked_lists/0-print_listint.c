@@ -8,10 +8,6 @@
 size_t print_listint(const listint_t *h)
 {
 size_t res = 0;
-if (!h)
-{
-printf("\n");
-}
 while (h != NULL)
 {
 printf("%d\n", h->n);
