@@ -18,7 +18,10 @@ head = head->next;
 index--;
 }
 res = head;
+if (head)
 return (res);
+else
+return (NULL);
 }
 else
 return (NULL);
