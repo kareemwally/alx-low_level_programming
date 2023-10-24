@@ -27,7 +27,7 @@ int res = 0;
 listint_t *r;
 if (!listint_len(*head))
 {
-return (res);
+return (-1);
 }
 else
 {
