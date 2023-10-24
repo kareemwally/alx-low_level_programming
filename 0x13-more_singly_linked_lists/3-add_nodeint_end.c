@@ -24,7 +24,7 @@ while (tmp->next != NULL)
 tmp = tmp->next;
 }
 tmp->next = res;
-tmp=res;
+tmp = res;
 return (tmp);
 }
 else
