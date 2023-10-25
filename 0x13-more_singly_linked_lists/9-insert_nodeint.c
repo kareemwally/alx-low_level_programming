@@ -53,7 +53,7 @@ res->next = tmp->next;
 res->n = n;
 tmp->next = res;
 }
-else if (!idx)
+else
 {
 return (NULL);
 }
