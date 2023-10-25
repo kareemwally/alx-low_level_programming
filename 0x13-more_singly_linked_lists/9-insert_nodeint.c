@@ -53,11 +53,9 @@ res->next = tmp->next;
 res->n = n;
 tmp->next = res;
 }
-else
+else if (!idx)
 {
-res->next = *head;
-*head = res;
-return (res);
+return (NULL);
 }
 }
 return (res);
