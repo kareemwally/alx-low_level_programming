@@ -31,6 +31,17 @@ if (!listint_len(*head))
 return (NULL);
 else
 {
+if (idx == 0)
+{
+res->n = n;
+res->next = *head;
+*head = res;
+return (*head);
+}
+else if (idx == listint_len(*head) - 1)
+{
+return (add_nodeint_end(head, (const int)n));
+}
 if (idx > 0 && idx < listint_len(*head))
 {
 while (idx != 1)
