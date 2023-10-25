@@ -55,7 +55,9 @@ tmp->next = res;
 }
 else
 {
-return (NULL);
+res->next = *head;
+*head = res;
+return (res);
 }
 }
 return (res);
