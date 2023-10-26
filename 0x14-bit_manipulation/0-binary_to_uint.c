@@ -15,6 +15,8 @@ if (!(b[i] == 48 || b[i] == 49))
 return (0);
 }
 }
+return (1);
+}
 /**
  *binary_to_uint-function
  *description:that function converts binary to int
