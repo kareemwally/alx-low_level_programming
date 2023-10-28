@@ -9,7 +9,7 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 int i;
 int size = sizeof(int) * 8;
-int bit = 0;
+int bit = -1;
 for (i = size - 1; i >= 0; i--)
 {
 bit = (n >> i) & 1;
