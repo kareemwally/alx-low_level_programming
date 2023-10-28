@@ -8,10 +8,10 @@
 void print_binary(unsigned long int n)
 {
 int i;
-int size = sizeof(int) * 8;
+int size = 11;
 for (i = size - 1; i >= 0; i--)
 {
 int bit = (n >> i) & 1;
-printf("%d",bit);
+printf("%d", bit);
 }
 }
