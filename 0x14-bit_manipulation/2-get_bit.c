@@ -7,14 +7,16 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-int res;
-if (n % (long int) pow(2, index) == 0)
+int i;
+int size = sizeof(int) * 8;
+int bit = 0;
+for (i = size - 1; i >= 0; i--)
 {
-res = 1;
-}
-else
+bit = (n >> i) & 1;
+if (i == (int) index)
 {
-res = 0;
+break;
 }
-return (res);
+}
+return (bit);
 }
