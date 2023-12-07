@@ -5,10 +5,10 @@
  * @h: constant pointer to head
  * Return: (int) number of nodes
  */
-size_t dlistint_len(dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 size_t res = 0;
-dlistint_t *test = h;
+const dlistint_t *test = h;
 if (h == NULL)
 {
 return (res);
