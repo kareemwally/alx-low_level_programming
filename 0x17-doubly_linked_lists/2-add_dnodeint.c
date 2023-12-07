@@ -16,6 +16,10 @@ return (NULL);
 new_head->n = n;
 new_head->next = *head;
 new_head->prev = NULL;
-(*head) = new_head;
+if (*head != NULL)
+{
+(*head)->prev = new_head;
+}
+*head = new_head;
 return (new_head);
 }
