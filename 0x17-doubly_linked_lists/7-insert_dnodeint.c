@@ -42,11 +42,6 @@ while (idx > 0)
 tmp = tmp->next;
 idx--;
 }
-if (tmp == NULL)
-{
-free(m);
-return (NULL);
-}
 if (tmp == *h)
 {
 m->n = n;
