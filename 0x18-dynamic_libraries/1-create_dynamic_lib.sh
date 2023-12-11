@@ -5,4 +5,5 @@ if [ -z "$(ls *.c 2>/dev/null)" ]; then
 fi
 
 gcc *.c -c -fpic
-gcc *.o -o liball.so
+gcc *.o -shared -o liball.so
+cp liball.so /usr/lib
