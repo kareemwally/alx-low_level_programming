@@ -3,7 +3,7 @@
  * hash_table_create - function
  * Description: that function creates the hash-table
  * @size: number of elements in the table
- * Return: (has_table_t) pointer to the f
+ * Return: pointer to the 1st node
  */
 hash_table_t *hash_table_create(unsigned long int size)
 {
