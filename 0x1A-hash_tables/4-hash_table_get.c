@@ -16,10 +16,11 @@ if (ht == NULL || ht->array == NULL || ht->size == 0
 		|| strlen(key) == 0 || key == NULL)
 return (NULL);
 tmp = ht->array[index];
-if (tmp != NULL)
+while (tmp != NULL)
 {
 if (strcmp(key, tmp->key) == 0)
 	return (tmp->value);
+tmp = tmp->next;
 }
 return (NULL);
 }
