@@ -10,6 +10,7 @@ void hash_table_print(const hash_table_t *ht)
 {
 hash_node_t *res;
 unsigned long int i;
+int sign = 0;
 if (ht == NULL || ht->array == NULL || ht->size == 0)
 {
 return;
@@ -20,7 +21,12 @@ for (i = 0; i < ht->size; i++)
 res = ht->array[i];
 while (res != NULL)
 {
-printf("\'%s\': \'%s\',", res->key, res->value);
+if (sign == 1)
+{
+printf(", ");
+}
+printf("\'%s\': \'%s\'", res->key, res->value);
+sign = 1;
 res = res->next;
 }
 }
