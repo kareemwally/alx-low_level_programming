@@ -25,6 +25,6 @@ ht->array[index] = tmp;
 }
 }
 free(ht->array);
-free((void *)ht->size);
+ht->size = 0;
 free(ht);
 }
