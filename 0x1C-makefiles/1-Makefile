@@ -1,5 +1,5 @@
 # Usage:
-# make	# compiling c files with variables
+# make -f 1-Makefile	# compiling c files with variables
 CC = gcc
 SRC = $(wildcard *.c)
 all:
