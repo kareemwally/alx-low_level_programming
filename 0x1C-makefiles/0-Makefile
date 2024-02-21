@@ -1,0 +1,3 @@
+# a file to compile school.c file
+all:
+	gcc main.c school.c -o school
