@@ -1,5 +1,5 @@
 # compiling c files with variables
 CC = gcc
-SRC = $(wildcard *.c)
+SRC = *.c
 all:
 	${CC} ${SRC} -o school
