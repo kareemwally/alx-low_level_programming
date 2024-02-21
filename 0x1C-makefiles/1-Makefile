@@ -1,4 +1,5 @@
-# compiling c files with variables
+# Usage:
+# make	# compiling c files with variables
 CC = gcc
 SRC = $(wildcard *.c)
 all:
