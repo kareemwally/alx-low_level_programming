@@ -10,7 +10,7 @@
  */
 size_t get_pos(size_t lo, size_t hi, int *array, int value)
 {
-return (lo + (((double)(hi - lo) / (array[hi] - array[lo])) * (value - array[lo])));
+return (lo + ((value - array[lo]) * (hi - lo)) / (array[hi] - array[lo]));
 }
 /**
  *interpolation_search - function
@@ -54,6 +54,5 @@ int interpolation_search(int *array, size_t size, int value)
 			}
 		}
 	}
-	printf("Found %d at index: %d\n", value, index);
 	return (index);
 }
